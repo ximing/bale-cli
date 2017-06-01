@@ -1,0 +1,29 @@
+{
+  "name": "bale-cli",
+  "version": "1.0.0",
+  "description": "package cli",
+  "main": "index.js",
+  "repository": "https://github.com/ximing/bale-cli",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "bale": "bale.js"
+  },
+  "author": "ximing",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "copyfiles": "^1.2.0",
+    "dependency-tree": "^5.9.1",
+    "lodash": "^4.17.4",
+    "rimraf": "^2.6.1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 5.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
