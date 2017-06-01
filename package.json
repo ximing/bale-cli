@@ -1,6 +1,6 @@
 {
   "name": "bale-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "package cli",
   "main": "index.js",
   "repository": "https://github.com/ximing/bale-cli",

@@ -2,7 +2,7 @@
 var path = require('path');
 var bale = require('./index');
 var config = {
-    filePath:'',
+    filePath:'./index.js',
     outPutDir: path.join(process.cwd(), '__pack__'),
     progress:true,
     filter :path => path.indexOf('node_modules') === -1,
